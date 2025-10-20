@@ -3,5 +3,5 @@
   "type": "web",
   "buildCommand": "echo 'No build needed'",
   "startCommand": "php -S 0.0.0.0:${PORT:-8000} index.php",
-  "healthCheckPath": "/me"
+  "healthCheckPath": "/strings"
 }
